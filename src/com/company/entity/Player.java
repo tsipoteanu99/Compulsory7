@@ -1,6 +1,5 @@
 package com.company.entity;
 
-import com.company.exceptions.IllegalTokenExtraction;
 import com.company.gameinfo.Board;
 import com.company.gameinfo.Token;
 
@@ -9,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Clasa Player implementeaza clasa Runnable deoarece vrem sa executam instantele obiectelor de tip Player cu ajutorul threadurilor, asadar va trebui si sa facem override la metoda run()
+ * Clasa Player implementeaza clasa Runnable deoarece vrem sa executam instantele obiectelor de tip Player cu ajutorul threadurilor, asadar va trebui si sa facem override la metoda run().
  * **/
 
 public class Player implements Runnable {
